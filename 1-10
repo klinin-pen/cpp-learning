@@ -1,0 +1,18 @@
+#include <iostream>
+#include <stdio.h>
+#include <cstdlib>
+
+using namespace std;
+
+int main()
+{
+    system("chcp 1251>nul");
+    int n = 10, k = 1;
+    while (k <= n)
+    {
+        cout << "Вывод чисел: "<<k<<"" << endl;
+        k++;
+    }
+    system("pause>nul");
+    return 0;
+}
